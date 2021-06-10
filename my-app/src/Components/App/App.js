@@ -8,8 +8,16 @@ import Playlist from '../Playlist/Playlist';
 class App extends React.Component {
   constructor(props) {
     super(props);
+
+    this.state = {
+      searchResults: [
+        {name: 'Gone', artist: 'Kanye West', album: 'Late Registration', id: 1},
+        {name: 'Forever ever', artist: 'Trippie Redd', album: 'Topanga', id: 2},
+        {name: 'Juice', artist: 'Chance the Rapper', album: 'Acid Rap', id: 3}
+      ],
+    }
   }
-  
+
   render() {
     return (
       <div>
