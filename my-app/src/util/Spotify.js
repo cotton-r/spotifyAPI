@@ -1,5 +1,5 @@
 const clientID = '675e55000ed5493a949a9c1c5ad5905c';
-const redirectUri = 'http://jammmin_project.surge.sh';
+const redirectUri = 'http://jammmin_byrory.surge.sh';
 
 let accessToken;
 
